@@ -1,1 +1,41 @@
-
+*{
+    margin: 0;
+}
+.parallax-Container{
+    position: relative;
+}
+.btn-Order{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 20px 30px;
+    font-size: 24px;
+    background-color: rgba(0,0,0,.4);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.parallax{
+    min-height: 500px; /* Set a specific height */
+    background-attachment: fixed; /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg1{
+    background-image: url(Images/1.jpg);
+}
+#bg2{
+    background-image: url(Images/2.jpg);
+}
+#bg3{
+    background-image: url(Images/3.jpg);
+}
+.banner{
+    background-color: black;
+    color: white;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+}
